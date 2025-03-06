@@ -1,125 +1,50 @@
-/* General body styling for dark theme */
 body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #1e1e1e; /* Dark background */
-    color: #ecf0f1; /* Light text color for better contrast */
 }
 
-/* Header styling */
 header {
-    background-color: #2c3e50; /* Darker shade for header */
-    color: #ecf0f1;
-    text-align: center;
+    background-color: #1f1f1f;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
-header h1 {
-    font-size: 2.5em;
-    letter-spacing: 2px;
-    margin: 0;
+h1 {
+    color: #ffcc00;
 }
 
-/* Information section styling */
-.info {
-    max-width: 1100px;
-    margin: 20px auto;
-    padding: 30px;
-    background-color: #34495e; /* Darker background for content */
-    border-radius: 8px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
-}
-
-.info h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #ecf0f1;
-}
-
-.info p {
-    color: #bdc3c7; /* Slightly lighter text for paragraphs */
-    line-height: 1.7;
-}
-
-/* Geography Impact section */
-.geography-impact {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.impact-item {
-    background-color: #2c3e50; /* Slightly lighter background for each section */
-    border-radius: 8px;
-    padding: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.impact-item h3 {
-    font-size: 1.6em;
-    color: #ecf0f1;
-    margin-bottom: 15px;
-}
-
-.impact-item p {
-    color: #bdc3c7;
-    line-height: 1.6;
-}
-
-.impact-item ul {
-    padding-left: 20px;
-    margin-bottom: 15px;
-}
-
-.impact-item ul li {
-    margin-bottom: 10px;
-}
-
-/* Sources list styling */
-ul {
+nav ul {
     list-style-type: none;
-    padding-left: 0;
+    padding: 0;
 }
 
-ul li {
-    margin-bottom: 12px;
-    font-size: 1.1em;
-    color: #bdc3c7;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-/* Footer styling */
-footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    text-align: center;
-    padding: 20px;
-    font-size: 1.1em;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Link Styling */
-a {
-    color: #1abc9c; /* Highlight color for links */
+nav ul li a {
+    color: #ffcc00;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+section {
+    padding: 20px;
+    border-bottom: 1px solid #333;
 }
 
-/* Responsive Design for mobile */
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
+h2 {
+    color: #ffcc00;
+}
 
-    .info {
-        padding: 20px;
-    }
-
-    .geography-impact {
-        gap: 20px;
-    }
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
